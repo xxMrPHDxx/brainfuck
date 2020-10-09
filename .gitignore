@@ -1,0 +1,5 @@
+brainfuck
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
