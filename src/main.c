@@ -100,6 +100,8 @@ int main(int argc, char** argv){
 		while((flag = fgetc(f)) != EOF) CODE[i++] = flag;
 
 		interpret(CODE, len, main);
+		printf("\n");
+		exit(0);
 	}
 
 	size_t MAX_CODE_LEN = 1000;
